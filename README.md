@@ -34,7 +34,7 @@ Your job in this first exercise is to create a new component for this UI, and re
 
 Here's a minimal representation of the markup expected to be produced by this new component:
 
-```html
+```htm
 <form class="guess-input-wrapper">
   <label for="guess-input">Enter guess:</label>
   <input id="guess-input" type="text" />
