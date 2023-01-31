@@ -1,7 +1,9 @@
 import React from "react"
 
+
 function GuessInput({ handleSubmitGuess }) {
-	const [tentativeGuess, setTentativeGuess] = React.useState("")
+	
+	const [tentativeGuess, setTentativeGuess] = React.useState()
 
 	function handleSubmit(event) {
 		event.preventDefault()
